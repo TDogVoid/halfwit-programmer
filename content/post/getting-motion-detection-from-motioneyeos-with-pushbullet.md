@@ -1,7 +1,7 @@
 ---
 title: "Getting motion detection from motioneyeos with pushbullet"
 date: 2018-06-29T13:26:16-04:00
-draft: true
+draft: false
 Description: ""
 Tags: ["go","programming", "pushbullet", "motioneyeos"]
 Categories: ["go", "programming"]
