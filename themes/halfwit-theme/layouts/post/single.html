@@ -1,0 +1,12 @@
+{{ partial "header.html" . }}
+  <div class="container">
+    <h3>{{ .Title }}</h3>
+    <div class="meta">
+      <div class="author">
+        By {{ .Params.author | default .Site.Params.author }}
+      </div>
+      <div class="mdate">{{ .Date.Format "Jan 2, 2006"}}</div>
+    </div>
+    {{ .Content }}
+  </div>
+{{ partial "footer.html" . }}

@@ -1,0 +1,9 @@
+baseurl = "http://halfwitprogrammer.com"
+languageCode = "en-us"
+title = "Halfwit Programmer"
+theme = "halfwit-theme"
+
+[params]
+    author = "Terrence Drumm"
+    headerColor = "green accent-4"
+    footerColor = "green accent-4"
