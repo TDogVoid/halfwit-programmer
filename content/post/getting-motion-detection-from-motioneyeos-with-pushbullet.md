@@ -21,4 +21,4 @@ Get the code on [github](https://github.com/TDogVoid/pushcam)
 ### Thoughts
 I am thinking of making a version with Discord rather than pushbullet.  I assume discord rate limit is much higher.
 
-If anyone can explain to me what number is better for situations that would be awesome.
+If anyone can explain to me what smart mask number is better for situations that would be awesome.
