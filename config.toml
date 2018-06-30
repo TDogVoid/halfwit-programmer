@@ -2,6 +2,7 @@ baseurl = "http://halfwitprogrammer.com"
 languageCode = "en-us"
 title = "Halfwit Programmer"
 theme = "halfwit-theme"
+disqusShortname = "halfwitprogrammer"
 
 [params]
     author = "Terrence Drumm"
