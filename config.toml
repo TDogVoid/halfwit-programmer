@@ -9,3 +9,21 @@ paginate= 10
     author = "Terrence Drumm"
     headerColor = "green accent-4"
     footerColor = "green accent-4"
+
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+    
+
+[[menu.main]]
+    identifier = "about"
+    name = "About"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/page/about/"
+    weight = -110
+
+[[menu.main]]
+    name = "Tags"
+    weight = 3
+    identifier = "tags"
+    url = "/tags/"

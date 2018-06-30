@@ -14,25 +14,25 @@
 </head>
 
 <body>
-    <nav>
-        <div class="nav-wrapper green accent-4">
-            <a href="/" class="brand-logo">{{.Site.Title}}</a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-                {{ range .Data.Pages }} {{ if eq .Type "page" }}
-                <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-                {{ end }} {{ end }}
-                <li><a href="/">Blog</a></li>
-            </ul>
+    <header>
+        <nav>
+            <div class="nav-wrapper green accent-4">
+                <a href="/" class="brand-logo">{{.Site.Title}}</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    {{ range .Site.Menus.main }}
+                    <li class="menu-item"><a href="{{ .URL }}">{{ .Name }}</a></li>
+                    {{ end }}
+                </ul>
 
-            <ul class="sidenav" id="mobile-demo">
-                {{ range .Data.Pages }} {{ if eq .Type "page" }}
-                <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-                {{ end }} {{ end }}
-                <li><a href="/">Blog</a></li>
-            </ul>
+                <ul class="sidenav" id="mobile-demo">
+                    {{ range .Site.Menus.main }}
+                    <li class="menu-item"><a href="{{ .URL }}">{{ .Name }}</a></li>
+                    {{ end }}
+                </ul>
 
-        </div>
-    </nav>
+            </div>
+        </nav>
+    </header>
     <main>
         <div class="container content">

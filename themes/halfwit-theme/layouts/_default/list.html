@@ -1,8 +1,6 @@
-<!DOCTYPE html>
-<html>
-<body>
-  {{ range .Data.Pages }}
-    <h1><a href={{ .Permalink }}>{{ .Title }}</a></h1>
-  {{ end }}
-</body>
-</html>
+{{ partial "header.html" . }}
+<h1>Tags</h1>
+{{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+    <a href="/tags/{{ $name | urlize }}">#{{ $name | humanize }} ({{ $taxonomy.Count }})</a>
+{{end}}
+  {{ partial "footer.html" . }}
