@@ -1,28 +1,38 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>{{ .Title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/css/style.css">
+
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link rel="stylesheet" href="/css/style.css">
 
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
 </head>
+
 <body>
     <nav>
         <div class="nav-wrapper green accent-4">
             <a href="/" class="brand-logo">{{.Site.Title}}</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
-            {{ range .Data.Pages }}
-                {{ if eq .Type "page" }}
-                    <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-                {{ end }}
-            {{ end }}
+                {{ range .Data.Pages }} {{ if eq .Type "page" }}
+                <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+                {{ end }} {{ end }}
+                <li><a href="/">Blog</a></li>
             </ul>
+
+            <ul class="sidenav" id="mobile-demo">
+                {{ range .Data.Pages }} {{ if eq .Type "page" }}
+                <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+                {{ end }} {{ end }}
+                <li><a href="/">Blog</a></li>
+            </ul>
+
         </div>
     </nav>
-    <div class="container content">
+    <main>
+        <div class="container content">
