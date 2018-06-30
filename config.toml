@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "Halfwit Programmer"
 theme = "halfwit-theme"
 disqusShortname = "halfwitprogrammer"
+paginate= 10
 
 [params]
     author = "Terrence Drumm"
