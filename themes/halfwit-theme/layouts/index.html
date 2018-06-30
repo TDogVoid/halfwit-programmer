@@ -3,6 +3,7 @@
     {{ if eq .Type "post"}}
       <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
       {{ .Summary }}
+      <a href="{{.Permalink }}">Read More</a>
     {{ end }}
   {{ end }}
 
