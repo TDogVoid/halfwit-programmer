@@ -3,8 +3,8 @@ title: "Getting motion detection from motioneyeos with pushbullet"
 date: 2018-06-29T13:26:16-04:00
 draft: false
 Description: ""
-Tags: ["golang","programming", "pushbullet", "motioneyeos"]
-Categories: ["programming", "golang"]
+Tags: ["golang","programming", "pushbullet", "motioneyeos",  "2018"]
+Categories: ["programming", "golang", "2018"]
 author: ""
 
 ---

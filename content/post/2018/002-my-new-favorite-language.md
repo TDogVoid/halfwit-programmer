@@ -3,8 +3,8 @@ title: "My New Favorite Language"
 date: 2018-06-29T13:37:56-04:00
 draft: false
 Description: ""
-Tags: ["golang", "programming"]
-Categories: ["golang", "programing"]
+Tags: ["golang", "programming", "2018"]
+Categories: ["golang", "programing", "2018"]
 author: ""
 
 --- 
