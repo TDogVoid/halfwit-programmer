@@ -28,6 +28,21 @@ paginate= 10
     identifier = "tags"
     url = "/tags/"
 
+[[menu.main]]
+    name = "Agile Reaction"
+    weight = 100
+    url = "https://www.agilereaction.com/"
+
+[[menu.main]]
+    name = "Github"
+    weight = 20
+    url = "https://github.com/TDogVoid"
+
+[[menu.main]]
+    name = "Twitter"
+    weight = 20
+    url = "https://twitter.com/TDogVoid"
+
 [related]
 
     # Only include matches with rank >= threshold. This is a normalized rank between 0 and 100.
