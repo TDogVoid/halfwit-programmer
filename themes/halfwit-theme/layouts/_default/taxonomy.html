@@ -1,0 +1,10 @@
+{{ partial "header.html" . }}
+<div>
+    <h1>{{ .Title }}</h1>
+    <!-- ranges through each of the content files associated with a particular taxonomy term and renders the summary.html content view -->
+    {{ range .Data.Pages }}
+    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+    {{ .Summary }}
+    <a href="{{.Permalink }}">Read More</a> {{ end }}
+</div>
+{{ partial "footer.html" . }}
