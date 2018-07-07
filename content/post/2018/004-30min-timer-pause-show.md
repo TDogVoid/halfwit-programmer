@@ -9,7 +9,7 @@ author: ""
 ---
 
 
-I wrote a quick and dirty little program for my mom to pause her show when shes watching it on her computer. It's a 30 min timer that resets every time you move the mouse or press a button. After 30 minutes of inactivity it presses the spacebar key pausing the show.  It can't tell if your show is playing or not so it could start your show too. This is windows based only.
+I wrote a quick and dirty little program for my mom to pause her show when she's watching it on her computer. It's a 30 min timer that resets every time you move the mouse or press a button. After 30 minutes of inactivity, it presses the spacebar key pausing the show.  It can't tell if your show is playing or not so it could start your show too. This is windows based only.
 
 [Link to the github code](https://github.com/TDogVoid/SleepTimerPauseShow)
 
