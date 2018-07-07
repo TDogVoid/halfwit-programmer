@@ -1,5 +1,5 @@
 ---
-title: "30min Sleep Timer Pause Show"
+title: "30min Sleep Timer That Pauses Your Show"
 date: 2018-07-07T11:18:09-04:00
 draft: false
 Description: ""
