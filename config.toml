@@ -7,8 +7,6 @@ paginate= 10
 
 [params]
     author = "Terrence Drumm"
-    headerColor = "green accent-4"
-    footerColor = "green accent-4"
 
 [taxonomies]
     tag = "tags"

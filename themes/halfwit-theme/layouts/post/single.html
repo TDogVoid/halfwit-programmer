@@ -1,5 +1,6 @@
 {{ partial "header.html" . }}
 <div class="container">
+    <div>
     <h3>{{ .Title }}</h3>
     <div class="meta">
         <div class="author">
@@ -7,6 +8,8 @@
         </div>
         <div class="mdate">{{ .Date.Format "Jan 2, 2006"}}</div>
     </div>
-    {{ .Content }} {{ partial "related.html" . }} {{ partial "comments.html" . }}
+        {{ .Content }}
+    </div>
+    {{partial "affiliatedisclosure.html"}} {{ partial "related.html" . }} {{ partial "comments.html" . }}
 </div>
 {{ partial "footer.html" . }}

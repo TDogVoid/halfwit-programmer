@@ -2,9 +2,11 @@
 
 {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
 {{ range $paginator.Pages }}
-  <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-      {{ .Summary }}
-  <a href="{{.Permalink }}">Read More</a>
+  <div class="Article-Item #eceff1 blue-grey lighten-5 z-depth-2">
+    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+        {{ .Summary }}
+    <a href="{{.Permalink }}">Read More</a>
+  </div>
 {{ end }}
 <!-- Hugo's default pagination template. -->
 {{ template "_internal/pagination.html" . }}

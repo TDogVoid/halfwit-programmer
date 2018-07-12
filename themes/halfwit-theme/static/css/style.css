@@ -1,7 +1,10 @@
+
 body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
 }
 
 main {
@@ -17,6 +20,23 @@ main {
     font-size: .7em;
 }
 
-.content {
-    font-size: 1.5em;
+
+.affiliate-disclosure {
+    font-style: italic;
+    font-size: .8em;
+    outline-style: solid;
+    outline-color: #b8b8b8;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.menu-item a{
+    color: black;
+}
+
+.main {
+    border: solid;
+    border-width: 0px 1px;
+    border-color: #b8b8b8;
+    padding: 10px;
+    box-shadow: 2px 2px 1px #888888;
 }
