@@ -40,3 +40,8 @@ main {
     padding: 10px;
     box-shadow: 2px 2px 1px #888888;
 }
+
+.NotFound {
+    font-size: 5em;
+    text-align: center
+}
