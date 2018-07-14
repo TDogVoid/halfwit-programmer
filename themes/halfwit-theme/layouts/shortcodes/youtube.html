@@ -1,6 +1,8 @@
-<div class="embed video-player">
+<div class="video-container">
     {{ if .IsNamedParams }}
     <iframe width="560" height="315" src="https://www.youtube.com/embed/{{.Get `id`}}?start={{.Get `start`| default `0` }}?&autoplay={{if .Get `autoplay` }}1{{else}}0{{end}}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
-    </iframe> {{ else }}
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/{{.Get 0}}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> {{end}}
+    </iframe> 
+    {{ else }}
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/{{.Get 0}}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> 
+    {{end}}
 </div>
