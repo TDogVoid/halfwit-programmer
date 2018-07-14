@@ -5,6 +5,8 @@ theme = "halfwit-theme"
 disqusShortname = "halfwitprogrammer"
 paginate= 10
 
+GoogleAnalytics = "UA-122297209-1"
+
 [params]
     author = "Terrence Drumm"
 
