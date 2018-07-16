@@ -23,12 +23,6 @@ GoogleAnalytics = "UA-122297209-1"
     weight = -110
 
 [[menu.main]]
-    name = "Tags"
-    weight = 3
-    identifier = "tags"
-    url = "/tags/"
-
-[[menu.main]]
     name = "Agile Reaction"
     weight = 100
     url = "https://www.agilereaction.com/"

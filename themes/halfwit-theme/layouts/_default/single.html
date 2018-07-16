@@ -1,6 +1,13 @@
 {{ partial "header.html" . }}
-  <h1>{{ .Title }}</h1>
-  <div class="content">
-    {{ .Content }}
-  </div>
+<div class="container main">
+    <div class="row">
+        <div class="col l9 m12">
+            <div class="content">
+                <h1>{{ .Title }}</h1>
+                {{ .Content }}
+            </div>
+        </div>
+        {{ partial "widgets.html" .}}
+    </div>
+</div>
 {{ partial "footer.html" . }}

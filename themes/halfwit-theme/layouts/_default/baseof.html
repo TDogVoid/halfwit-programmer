@@ -1,10 +1,19 @@
 <html>
-    {{- partial "head.html" . -}}
-    <body>
-        {{- partial "header.html" . -}}
-        <div id="content">
-        {{- block "main" . }}{{- end }}
+{{- partial "head.html" . -}}
+
+<body>
+    {{- partial "header.html" . -}}
+    <div class="container main">
+        <div class="row">
+            <div class="col l9 s12">
+                <div id="content">
+                    {{- block "main" . }}{{- end }}
+                </div>
+            </div>
+            {{ partial "widgets.html" .}}
         </div>
-        {{- partial "footer.html" . -}}
-    </body>
+    </div>
+    {{- partial "footer.html" . -}}
+</body>
+
 </html>

@@ -2,10 +2,17 @@
 
 <article>
     <div class="article">
-        <header>
-            <h1>{{.Title}}</h1>
-        </header>
-        {{.Content}}
+        <div class="container main">
+            <div class="row">
+                <div class="col l9 s12">
+                    <header>
+                        <h1>{{.Title}}</h1>
+                    </header>
+                    {{.Content}}
+                </div>
+                {{ partial "widgets.html" .}}
+            </div>
+        </div>
     </div>
 </article>
 <ul>
