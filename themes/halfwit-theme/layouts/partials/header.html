@@ -20,9 +20,9 @@
     <header>
         <nav>
             <div class="nav-wrapper blue-grey lighten-5">
-                <a href="/" class="brand-logo center black-text">{{.Site.Title}}</a>
+                <a href="/" class="brand-logo black-text  hide-on-small-and-down">{{.Site.Title}}</a>
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger right black-text"><i class="material-icons">menu</i></a>
-                <ul id="nav-mobile" class="right hide-on-med-and-down black-textS">
+                <ul id="nav-mobile" class="right hide-on-med-and-down black-text">
                     {{ range .Site.Menus.main }}
                     <li class="menu-item"><a href="{{ .URL }}">{{ .Name }}</a></li>
                     {{ end }}
