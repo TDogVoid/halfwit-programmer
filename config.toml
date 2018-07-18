@@ -37,6 +37,11 @@ GoogleAnalytics = "UA-122297209-1"
     weight = 20
     url = "https://twitter.com/TDogVoid"
 
+[[menu.main]]
+    name = "Create a Twitch Bot"
+    weight = 10
+    url = "http://skl.sh/2eyhlh2"
+
 [related]
 
     # Only include matches with rank >= threshold. This is a normalized rank between 0 and 100.
