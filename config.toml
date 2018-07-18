@@ -1,4 +1,4 @@
-baseurl = "http://halfwitprogrammer.com"
+baseurl = "https://halfwitprogrammer.com"
 languageCode = "en-us"
 title = "Halfwit Programmer"
 theme = "halfwit-theme"
