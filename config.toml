@@ -1,14 +1,25 @@
 baseurl = "https://halfwitprogrammer.com"
 languageCode = "en-us"
 title = "Halfwit Programmer"
-theme = "halfwit-theme"
+theme = "mainroad"
 disqusShortname = "halfwitprogrammer"
 paginate= 10
 
 GoogleAnalytics = "UA-122297209-1"
 
 [params]
-    author = "Terrence Drumm"
+  author = "Terrence Drumm"
+  subtitle = "My adventure to build something useful"
+  opengraph = true
+  twitter_cards = true
+  readmore = true
+  authorbox = true
+  
+
+[Author] # Used in authorbox
+  name = "Terrence Drumm"
+  bio = "I'm a self learned developer and I just love building things"
+  
 
 [taxonomies]
     tag = "tags"
